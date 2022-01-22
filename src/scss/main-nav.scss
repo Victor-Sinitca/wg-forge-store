@@ -9,6 +9,7 @@
 
   @media screen and (max-device-width: s.$max-device-width) {
     margin-top: s.$header-height-mob;
+   // background: url('~@images/background/bgimage.jpg')  no-repeat  #232323 /contain;
     background: #232323;
   }
 }
@@ -22,6 +23,9 @@
   align-items: center;
   overflow-x: hidden;
   gap: 2em;
+  @media screen and (max-device-width: s.$max-device-width) {
+    gap: 1em;
+  }
 
   #main-visual-container{
     width: 100%;
@@ -103,6 +107,7 @@
     border-bottom: 5px solid c.$fColorWhite;
     color: c.$fColorWhite;
   }
+
 
 }
 
